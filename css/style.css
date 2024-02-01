@@ -1,0 +1,27 @@
+section {
+    font-family: "Open Sans", sans-serif;
+}
+/* SECTION 2 */
+#section-2, #section-5 {
+    background: linear-gradient(rgba(0, 13, 156, 0.4), rgba(0, 13, 156, 0.4)), url("../img/bg-masthead.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#section-2 .btn, #section-5 .btn {
+    width: 100%;
+}
+#section-3 i {
+    font-size: 60px;
+}
+#section-4 .showcase-img {
+    min-height: 30rem;
+    background-size: cover;
+}
+#footer i {
+    font-size: 30px;
+}
+@media (min-width: 576px) {
+    #section-2 .btn, #section-5 .btn {
+        width: 25%;
+    }
+}
